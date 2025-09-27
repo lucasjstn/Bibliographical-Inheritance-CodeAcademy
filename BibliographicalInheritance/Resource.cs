@@ -24,5 +24,10 @@ namespace BiblioInheritance
 
             Status = "Out";
         }
+
+        public void GetInfo()
+        {
+            Console.WriteLine($"Title: {Title}\nCategory: {Category}\nStatus: {Status}");
+        }
     }
 }
