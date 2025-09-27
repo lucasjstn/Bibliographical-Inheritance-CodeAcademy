@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace BiblioInheritance
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Resource test = new Resource("title example", "category example");
+            test.GetInfo();
+        }
+    }
+}
