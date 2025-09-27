@@ -1,0 +1,15 @@
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.cache
+TestResult*/
+obj/Debug/net9.0/OfficeManagementSystem-CodeAcademy.AssemblyInfoInputs.cache
