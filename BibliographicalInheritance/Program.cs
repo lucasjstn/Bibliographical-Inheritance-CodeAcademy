@@ -8,6 +8,8 @@ namespace BiblioInheritance
         {
             Resource test = new Resource("title example", "category example");
             test.GetInfo();
+            test.UpdateStatus();
+            test.GetInfo();
         }
     }
 }
