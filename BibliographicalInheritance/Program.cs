@@ -10,6 +10,15 @@ namespace BiblioInheritance
             test.GetInfo();
             test.UpdateStatus();
             test.GetInfo();
+
+            Book bookTest = new Book(
+                title: "Code",
+                pageCount: 396,
+                author: "Charles Petzold",
+                category: "Non Fiction"
+            );
+
+            bookTest.GetInfo();
         }
     }
 }
