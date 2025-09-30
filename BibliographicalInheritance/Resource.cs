@@ -21,8 +21,10 @@ namespace BiblioInheritance
             {
                 Status = "Available";
             }
-
-            Status = "Out";
+            else
+            {
+                Status = "Out";
+            }
         }
 
         public virtual void GetInfo()

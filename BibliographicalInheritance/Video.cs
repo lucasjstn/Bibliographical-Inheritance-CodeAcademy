@@ -16,6 +16,16 @@ namespace BiblioInheritance
             MediaType = mediaType;
         }
 
-        public override void UpdateStatus() { }
+        public override void UpdateStatus()
+        {
+            if (Status == "On-Demand")
+            {
+                Status = "DVD";
+            }
+            else
+            {
+                Status = "On-Demand";
+            }
+        }
     }
 }
