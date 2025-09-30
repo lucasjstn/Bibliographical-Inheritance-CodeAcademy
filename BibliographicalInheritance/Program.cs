@@ -19,6 +19,14 @@ namespace BiblioInheritance
             );
 
             bookTest.GetInfo();
+
+            Periodical p = new Periodical(
+                title: "Wired",
+                category: "Technology",
+                period: "Monthly"
+            );
+
+            p.UpdateStatus();
         }
     }
 }
